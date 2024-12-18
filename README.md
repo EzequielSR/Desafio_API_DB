@@ -156,6 +156,7 @@ Caso você encontre outros bugs ou inconsistências, por favor, registre-os na s
 ---
 
 ## Roadmap 🗺
+### Próximas Melhorias 
 1. Testes Adicionais
    
    * Validação de formatos alternativos (e.g., XML) se suportados pela API ViaCEP.
@@ -166,6 +167,10 @@ Primeiro
 3. Configuração via Arquivo Externo
    
    * Adicionar suporte para arquivos de configuração, como **application.properties** ou **.env**, para facilitar ajustes como URLs e variáveis globais.
+
+### Versão atual:
+
+1. Implementação de testes automatizados de CEP válido e inválido.
 
 ---
 
