@@ -16,7 +16,7 @@ A API a ser testada é a [ViaCEP](https://viacep.com.br/), que retorna informaç
 - [Descrição](#descrição-)
 - [Configuração de Repositório](#configuração-de-repositório-)
 - [Caso de Uso](#caso-de-uso-)
-- [Configuração da Aplicação](#configuração-de-aplicação-)
+- [Configuração de Aplicação](#configuração-de-aplicação-)
 - [Testes Implementados](#testes-implementados-)
 - [Gerar Relatório](#gerar-relatório-)
 - [Bugs e Inconsistências](#bugs-e-inconsistências-)
