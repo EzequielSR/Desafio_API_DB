@@ -1,5 +1,16 @@
 # Desafio API DB
 
+## Descrição 🚀
+
+Este repositório contém o código para o desafio de automação de testes em API. O objetivo do desafio é validar o comportamento de uma API Rest, utilizando práticas de **Clean Code**, **Design Patterns**, **Orientação a Objetos** e **Arquitetura de Automação de Testes**.
+
+A API a ser testada é a [ViaCEP](https://viacep.com.br/), que retorna informações sobre um endereço a partir de um CEP. Os cenários de teste abordados são:
+
+- **Cenário 1:** Cep Válido ✅
+- **Cenário 2:** Cep Inválido ❌
+
+---
+
 ## Índice 📑
 
 - [Descrição](#descrição-)
@@ -12,17 +23,6 @@
 - [Roadmap](#roadmap-)
 - [Logs](#logs-)
 - [Stack](#stack-)
-
----
-
-## Descrição 🚀
-
-Este repositório contém o código para o desafio de automação de testes em API solicitado pela empresa. O objetivo do desafio é validar o comportamento de uma API Rest, utilizando práticas de **Clean Code**, **Design Patterns**, **Orientação a Objetos** e **Arquitetura de Automação de Testes**.
-
-A API a ser testada é a [ViaCEP](https://viacep.com.br/), que retorna informações sobre um endereço a partir de um CEP. Os cenários de teste abordados são:
-
-- **Cenário 1:** Cep Válido ✅
-- **Cenário 2:** Cep Inválido ❌
 
 ---
 
@@ -39,6 +39,7 @@ A API a ser testada é a [ViaCEP](https://viacep.com.br/), que retorna informaç
    ```
 
 3. Importe o projeto no seu IDE(recomendo o IntelliJ IDEA)
+   
 4. Certifique-se que o seu **Java** está configurado corretamente(versão 11 ou superior).
 
 ---
@@ -46,7 +47,9 @@ A API a ser testada é a [ViaCEP](https://viacep.com.br/), que retorna informaç
 ## Caso de Uso 📋
 
 A API testada fornece os seguintes comportamentos:
+
 * Cenário 1: Quando um **CEP válido** é passado na URL, a API retorna um JSON com os dados do endereço.
+  
 * Cenário 2:  Quando um **CEP inválido** é passado, a API retorna uma mensagem de erro ou não encontra o endereço.
 
 Esses cenários são validados automaticamente pelos testes implementados. 
