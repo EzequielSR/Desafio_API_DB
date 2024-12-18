@@ -26,7 +26,7 @@ A API a ser testada é a [ViaCEP](https://viacep.com.br/), que retorna informaç
 
 ---
 
-## Configuração de Repositório 🛠️
+## Configuração de Repositório 🛠
 
 1. Clone o repositório em sua máquina:
    ```bash
@@ -56,7 +56,7 @@ Esses cenários são validados automaticamente pelos testes implementados.
 
 ---
 
-## Configuração de Aplicação ⚙️
+## Configuração de Aplicação ⚙
 
 Este projeto utiliza o seguinte:
 
@@ -159,7 +159,7 @@ Caso você encontre outros bugs ou inconsistências, por favor, registre-os na s
 
 ---
 
-## Roadmap 🗺️
+## Roadmap 🗺
 
 ---
 
