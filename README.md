@@ -156,3 +156,21 @@ Caso você encontre outros bugs ou inconsistências, por favor, registre-os na s
 
 ---
 
+## Roadmap 🗺️
+
+---
+
+## Logs 📝
+Logs de execução podem ser visualizados na saída padrão (console) durante a execução dos testes. Certifique-se de que o nível de log esteja configurado para INFO ou DEBUG para maior detalhamento.
+
+---
+
+## Stack 💻
+
+* Linguagem: Java
+* Frameworks:
+     * RestAssured
+     * JUnit 5
+     * Jackson Databind
+* Dependências: Maven, RestAssured, JUnit
+* Estrutura do Projeto:
