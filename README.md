@@ -72,22 +72,22 @@ Este projeto utiliza o seguinte:
   ### Dependências Maven:
 
   ```xml
-  <dependency>
+     <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>5.4.0</version>
-        </dependency>
-        <dependency>
+     </dependency>
+     <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.11.3</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
+     </dependency>
+     <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.18.1</version>
-        </dependency>
+     </dependency>
   ```
 
   ---
