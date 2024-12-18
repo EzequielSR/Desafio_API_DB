@@ -19,7 +19,7 @@
 
 Este repositório contém o código para o desafio de automação de testes em API solicitado pela empresa. O objetivo do desafio é validar o comportamento de uma API Rest, utilizando práticas de **Clean Code**, **Design Patterns**, **Orientação a Objetos** e **Arquitetura de Automação de Testes**.
 
-A API a ser testada é a [ViaCEP](https://viacep.com.br/ws/CEP/json), que retorna informações sobre um endereço a partir de um CEP. Os cenários de teste abordados são:
+A API a ser testada é a [ViaCEP](https://viacep.com.br/), que retorna informações sobre um endereço a partir de um CEP. Os cenários de teste abordados são:
 
 - **Cenário 1:** Cep Válido ✅
 - **Cenário 2:** Cep Inválido ❌
