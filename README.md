@@ -5,11 +5,11 @@
 - [Descrição](#descrição-)
 - [Configuração de Repositório](#configuração-de-repositório-)
 - [Caso de Uso](#caso-de-uso-)
-- [Configuração da Aplicação](#configuração-da-aplicação-)
+- [Configuração da Aplicação](#configuração-de-aplicação-)
 - [Testes Implementados](#testes-implementados-)
 - [Gerar Relatório](#gerar-relatório-)
 - [Bugs e Inconsistências](#bugs-e-inconsistências-)
-- [Roadmap](#roadmap-🗺)
+- [Roadmap](#roadmap-)
 - [Logs](#logs-)
 - [Stack](#stack-)
 
