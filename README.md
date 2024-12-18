@@ -13,16 +13,16 @@ A API a ser testada é a [ViaCEP](https://viacep.com.br/), que retorna informaç
 
 ## Índice 📑
 
-- [Descrição](#descrição-)
-- [Configuração de Repositório](#configuração-de-repositório-)
-- [Caso de Uso](#caso-de-uso-)
-- [Configuração de Aplicação](#configuração-de-aplicação-)
-- [Testes Implementados](#testes-implementados-)
-- [Gerar Relatório](#gerar-relatório-)
-- [Bugs e Inconsistências](#bugs-e-inconsistências-)
-- [Roadmap](#roadmap-)
-- [Logs](#logs-)
-- [Stack](#stack-)
+- [Descrição 🚀](#descrição-)
+- [Configuração de Repositório 🛠️](#configuração-de-repositório-)
+- [Caso de Uso 📋](#caso-de-uso-)
+- [Configuração de Aplicação ⚙️](#configuração-de-aplicação-)
+- [Testes Implementados ✅](#testes-implementados-)
+- [Gerar Relatório 📊](#gerar-relatório-)
+- [Bugs e Inconsistências 🐞](#bugs-e-inconsistências-)
+- [Roadmap 🗺️](#roadmap-)
+- [Logs 📝](#logs-)
+- [Stack 💻](#stack-)
 
 ---
 
