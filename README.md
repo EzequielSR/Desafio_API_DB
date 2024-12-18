@@ -2,7 +2,7 @@
 
 ## Índice 📑
 
-- [Descrição](#descrição)
+- [Descrição](#descricao)
 - [Configuração de Repositório](#configuração-de-repositório)
 - [Caso de Uso](#caso-de-uso)
 - [Configuração da Aplicação](#configuração-da-aplicação)
@@ -34,9 +34,9 @@ A API a ser testada é a [ViaCEP](https://viacep.com.br/), que retorna informaç
    ```
    
 2. Acesse o diretório do projeto:
-```bash
-  cd Desafio_API_DB
-```
+   ```bash
+     cd Desafio_API_DB
+   ```
 
 3. Importe o projeto no seu IDE(recomendo o IntelliJ IDEA)
 4. Certifique-se que o seu **Java** está configurado corretamente(versão 11 ou superior).
@@ -56,7 +56,9 @@ Esses cenários são validados automaticamente pelos testes implementados.
 ## Configuração de Aplicação ⚙️
 
 Este projeto utiliza o seguinte:
+
 * **Java**: Versão 11 ou superior
+  
 * **Frameworks e Bibliotecas**:
     * **RestAssured** (para realizar as requisições HTTP)
     * **JUnity 5** (para executar os testes)
@@ -96,10 +98,12 @@ Este projeto utiliza o seguinte:
 Foram implementados testes para validas os seguintes cenários:
 
 1. Cenário 1: Validação de **CEP válido**
+   
     - Realiza uma requisição para a API ViaCEP com um CEP válido.
     - Verifica se a resposta contém os dados corretos do endereço.
 
 2. Cenário 2: Validação de **CEP inválido**
+   
    - Realiza uma requisição para a API ViaCEP com um CEP inválido.
    - Verifica se a resposta retorna uma mensagem de erro ou um status de não encontrado.
 
@@ -125,6 +129,30 @@ Os testes estão localizados na pasta **src/test/java**, na classe *EnderecoServ
         assertEquals("SC", enderecoDTO.getUf());
     }
 ```
+
+---
+
+## Gerar Relatório 📊
+
+Para gerar o relatório dos testes executados, utilize o plugin de relatórios do Maven ou a integração com o JUnit 5. Após a execução dos testes, o Maven cria um relatório no diretório target/surefire-reports.
+
+### Executando os Testes
+1. Abra o terminal e navegue até o diretório do projeto.
+2. Execute os testes com o comando:
+   ```bash
+   mvn test
+   ```
+3. O relatório será gerado em **target/surefire-reports**.
+
+---
+
+## Bugs e Inconsistências 🐞
+
+* **Problema 1**: A API ViaCEP retorna respostas diferentes para o mesmo CEP em algumas situações. Isso pode ser um comportamento inesperado.
+
+* **Problema 2**: A API não fornece mensagens de erro claras para todos os cenários de CEP inválido.
+
+Caso você encontre outros bugs ou inconsistências, por favor, registre-os na seção de issues do repositório.
 
 ---
 
