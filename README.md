@@ -167,10 +167,32 @@ Logs de execução podem ser visualizados na saída padrão (console) durante a 
 
 ## Stack 💻
 
-* Linguagem: Java
-* Frameworks:
+* **Linguagem**: Java
+
+* **Frameworks**:
      * RestAssured
      * JUnit 5
      * Jackson Databind
-* Dependências: Maven, RestAssured, JUnit
-* Estrutura do Projeto:
+     
+* **Dependências**: Maven, RestAssured, JUnit
+
+* **Estrutura do Projeto**:
+```plaintext
+src/main/java/com/example/viaceprestapi
+      ├── dto
+      │   └──  EnderecoDTO.java
+      │  
+      ├── model
+      │   └── Endereco.java
+      │
+      ├── service
+      │   └── EnderecoService.java
+      │
+      │  
+      └── resources
+
+src/test/java/com/example/viaceprestapi.tests
+      │  
+      └── EnderecoServiceTest
+
+```
